@@ -38,7 +38,7 @@
           },
           {
             link: `https://eu01.mw-rmm.barracudamsp.com/SC/DeviceInfo/DeviceAlerts.aspx?DeviceID=${deviceId}&Menu=Alerts`,
-            title: 'Alters',
+            title: 'Alerts',
             content: 'A',
             backgroundColor: '#e74c3c',
             additionalCss: 'margin-left: 2px;',
