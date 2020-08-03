@@ -22,3 +22,4 @@ Currently we offer the following scripts:
 - **[Create Device Links](./scripts/create-device-links.js):** Adds three links to every warning that lets you open the overview, alerts and remotetools of that device in a new tab
 - **[Run-Script Textarea Monospaced](./scripts/run-script-textarea-monospaced.js):** Use a monospaced font in the textarea that displays the results from a script execution (useful if you print tables in your scripts)
 - **[Hide Warnings with Ticket](./scripts/hide-warnings-with-ticket.js):** On the warnings overview page hide warnings that have a ticket assigned (show me only the new stuff 😉)
+- **[Send Warning via Mail](./scripts/send-warning-via-mail.js):** Adds a button to send a warning via your default mailing program on the create-ticket page
