@@ -21,3 +21,4 @@ Currently we offer the following scripts:
 - **[Hide Clear-All Button](./scripts/hide-clear-all-button.js):** Hides the clear-all button to prevent clicking it by accident.
 - **[Create Device Links](./scripts/create-device-links.js):** Adds three links to every warning that lets you open the overview, alerts and remotetools of that device in a new tab
 - **[Run-Script Textarea Monospaced](./scripts/run-script-textarea-monospaced.js):** Use a monospaced font in the textarea that displays the results from a script execution (useful if you print tables in your scripts)
+- **[Hide Warnings with Ticket](./scripts/hide-warnings-with-ticket.js):** On the warnings overview page hide warnings that have a ticket assigned (show me only the new stuff 😉)
