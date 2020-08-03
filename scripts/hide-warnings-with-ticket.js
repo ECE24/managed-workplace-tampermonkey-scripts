@@ -14,6 +14,7 @@
   // SETTINGS START
 
   const localstorageKey = 'eceHideTickets'
+  const hideTicketCheckboxText = 'Hide Tickets'
 
   // SETTINGS END
 
@@ -110,9 +111,9 @@
 
   const checkboxContent = `
         <div class="btn-group" style="margin-left: 3px;">
-          <div class="btn btn-default" style="width: 150px; height: 34px; text-align: center; display: flex; align-items: center; justify-content: center;">
+          <div class="btn btn-default" style="text-align: center; display: flex; align-items: center; justify-content: center;">
             <input type="checkbox" id="eceHideTickets" name="eceHideTickets" style="margin: 0; padding: 0;">
-            <label for="eceHideTickets" style="margin: 0; margin-left: 4px; padding: 0;">Tickets verstecken</label>
+            <label for="eceHideTickets" style="margin: 0; margin-left: 4px; padding: 0;">${hideTicketCheckboxText}</label>
           </div>
         </div>
     `
