@@ -14,6 +14,7 @@
   // SETTINGS START
 
   const sendTo = 'your-mail@example.com'
+  const buttonText = 'Send Warning via Mail'
 
   // SETTINGS END
 
@@ -43,7 +44,7 @@
     const mailto = `mailto:${sendTo}?subject=${subject}&body=${body}`
 
     const button = helpers.createHTMLElement(
-      `<a href="${mailto}" class="btn btn-primary">Send Warning via Mail</a>`,
+      `<a href="${mailto}" class="btn btn-primary">${buttonText}</a>`,
     )
 
     const buttonList = document.querySelector('.panel-footer.text-right')
