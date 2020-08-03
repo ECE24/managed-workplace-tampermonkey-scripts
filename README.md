@@ -19,3 +19,4 @@ Currently we offer the following scripts:
 
 - **[Clear Warnings via Shortcut](./scripts/clear-warnings-via-shortcut.js):** Hit F2 on the warnings screen to clear a warning and focus the textarea for the notes (nice if you have more warnings than fit on your screen and you need to constantly scroll up to go to the clear button).
 - **[Hide Clear-All Button](./scripts/hide-clear-all-button.js):** Hides the clear-all button to prevent clicking it by accident.
+- **[Create Device Links](./scripts/create-device-links.js):** Adds three links to every warning that lets you open the overview, alerts and remotetools of that device in a new tab
